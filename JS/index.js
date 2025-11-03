@@ -1,6 +1,6 @@
 function buttonTipo(tipos) {
     let buttons = "";
-    tipos.forEach((value, index) => {
+    tipos.forEach((value) => {
         let name = getTipo(value.type.name);
         buttons += `<button class="btn btn-${name} text-white">${name}</button>`;
     });
